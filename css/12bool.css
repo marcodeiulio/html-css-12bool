@@ -25,6 +25,42 @@
 	flex-wrap: nowrap;
 }
 
+.row.g-10 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.row.g-20 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row.g-30 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.row.g-40 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.row.g-10 > [class^='col'] {
+	padding: 0 5px;
+}
+
+.row.g-20 > [class^='col'] {
+	padding: 0 10px;
+}
+
+.row.g-30 > [class^='col'] {
+	padding: 0 15px;
+}
+
+.row.g-40 > [class^='col'] {
+	padding: 0 20px;
+}
+
 /* Alignment utilities */
 
 .content-start {
