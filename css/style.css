@@ -14,3 +14,20 @@
 .row {
 	margin-bottom: 1px;
 }
+
+.nest {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.nested {
+	background-color: #00e165;
+	height: 40px;
+	border-color: #006cfa;
+}
+
+.separator {
+	margin-bottom: 30px;
+}
